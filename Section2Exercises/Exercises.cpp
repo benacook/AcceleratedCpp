@@ -24,16 +24,16 @@ int main(int argc, char const *argv[])
 
     //write blank line to seperate input from output
     cout << endl;
-
+    
     //write rows of output
     //invariant: we have written r rows so far
     for(int r = 0; r != rows; ++r){
-        string::size_type c = 0;
+        string::size_type c = 0;       
 
         //invariant: we have written c characters in the current row so far
         while(c != cols){
             //is it time to write he greeting?
-            if(r == pad + 1 || c == pad + 1){
+            if(r == pad + 1 && c == pad + 1){
                 cout << greeting;
                 c += greeting.size();
             }else{
