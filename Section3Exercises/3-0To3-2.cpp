@@ -78,10 +78,7 @@ int main()
         }
         quartile /= q;
         cout << "quartile " << i << ' ' << quartile << endl;
-    }
-    
-    
-    
+    } 
 
     return 0;
 }
