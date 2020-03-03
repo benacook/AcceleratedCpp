@@ -4,8 +4,8 @@
 #include <vector>
 #include "student_info.h"
 
-double grade(double, double, double);
-double grade(double, double, const std::vector<double>&);
-double grade(const Student_info&);
+double grade(double midterm, double final, double homework);
+double grade(double midterm, double final, const std::vector<double>& homework);
+double grade(const Student_info& student);
 
 #endif
