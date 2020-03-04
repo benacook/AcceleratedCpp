@@ -6,9 +6,9 @@
 #include <vector>
 
 struct Student_info{
-    string name;
+    std::string name;
     double midtermGrade, finalGrade;
-    vector<double> homework;
+    std::vector<double> homework;
 
 };
 

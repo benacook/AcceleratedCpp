@@ -8,6 +8,9 @@
 #include "grade.h"
 #include "student_info.h"
 
+//compile using:
+//g++ median.cpp student_info.cpp grade.cpp 4-0.cpp -o out
+
 using namespace std;
 int main(int argc, char const *argv[])
 {

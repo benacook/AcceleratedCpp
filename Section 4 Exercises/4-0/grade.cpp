@@ -12,11 +12,12 @@ double grade(double midterm, double final, double homework){
 
 double grade(double midterm, double final, const std::vector<double>& homework){
     if(homework.size() == 0){
-        throw domain_error("student has done no homework!");
+        ;//throw domain_error("student has done no homework!");
     }
     return grade(midterm, final, median(homework));
 }
 
 double grade(const Student_info& student){
-    grade(student.midtermGrade, student.midtermGrade, student.homework);
+    return grade(student.midtermGrade, student.midtermGrade,
+                 student.homework);
 }
