@@ -2,7 +2,7 @@
 #define GUARD_student_Info_h
 
 #include <iostream>
-#include <string.h>
+#include <string>
 #include <vector>
 
 struct Student_info{
